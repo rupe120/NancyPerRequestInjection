@@ -8,16 +8,16 @@ namespace NancyTransactionTest.Modules
 {
     public class IndexModule : NancyModule
     {
-        public IndexModule()
+        public IndexModule(Database database, IInjectedServiceTest injectedServiceTest)
         {
-            //Database database, IInjectedServiceTest injectedServiceTest
+            //
             Get["/", true] = async (parameters, ctx) =>
             {
-                //using (var trans = await database.GetTransactionAsync())
-                //{
-                //    await injectedServiceTest.InsertStuff(database);
-                //    await database.ExecuteAsync("insert into test (name) values (@0)", "c: " + DateTime.Now.ToString());
-                //}
+                using (var trans = await database.GetTransactionAsync())
+                {
+                    await injectedServiceTest.InsertStuff(database);
+                    await database.ExecuteAsync("insert into test (name) values (@0)", "c: " + DateTime.Now.ToString());
+                }
                 return View["index"];
             };
         }
