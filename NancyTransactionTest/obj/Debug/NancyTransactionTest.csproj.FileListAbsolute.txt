@@ -1,0 +1,12 @@
+C:\Dev\temp\NancyTransactionTest\NancyTransactionTest\bin\NancyTransactionTest.dll
+C:\Dev\temp\NancyTransactionTest\NancyTransactionTest\bin\NancyTransactionTest.pdb
+C:\Dev\temp\NancyTransactionTest\NancyTransactionTest\bin\AsyncPoco.dll
+C:\Dev\temp\NancyTransactionTest\NancyTransactionTest\bin\Nancy.dll
+C:\Dev\temp\NancyTransactionTest\NancyTransactionTest\bin\Nancy.Hosting.Aspnet.dll
+C:\Dev\temp\NancyTransactionTest\NancyTransactionTest\bin\AsyncPoco.pdb
+C:\Dev\temp\NancyTransactionTest\NancyTransactionTest\bin\AsyncPoco.xml
+C:\Dev\temp\NancyTransactionTest\NancyTransactionTest\bin\Nancy.xml
+C:\Dev\temp\NancyTransactionTest\NancyTransactionTest\bin\Nancy.Hosting.Aspnet.xml
+C:\Dev\temp\NancyTransactionTest\NancyTransactionTest\obj\Debug\NancyTransactionTest.csprojResolveAssemblyReference.cache
+C:\Dev\temp\NancyTransactionTest\NancyTransactionTest\obj\Debug\NancyTransactionTest.dll
+C:\Dev\temp\NancyTransactionTest\NancyTransactionTest\obj\Debug\NancyTransactionTest.pdb

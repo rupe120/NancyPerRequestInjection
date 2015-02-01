@@ -1,0 +1,5 @@
+C:\Dev\temp\NancyTransactionTest\NancyTransactionTestDB\bin\Debug\NancyTransactionTestDB.dacpac
+C:\Dev\temp\NancyTransactionTest\NancyTransactionTestDB\bin\Debug\NancyTransactionTestDB.dll
+C:\Dev\temp\NancyTransactionTest\NancyTransactionTestDB\bin\Debug\NancyTransactionTestDB.pdb
+C:\Dev\temp\NancyTransactionTest\NancyTransactionTestDB\obj\Debug\NancyTransactionTestDB.dll
+C:\Dev\temp\NancyTransactionTest\NancyTransactionTestDB\obj\Debug\NancyTransactionTestDB.pdb
