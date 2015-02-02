@@ -8,7 +8,7 @@ namespace NancyTransactionTest.Modules
 {
     public class IndexModule : NancyModule
     {
-        public IndexModule(Database database, IInjectedServiceTest injectedServiceTest)
+        public IndexModule(MyDatabase database, IInjectedServiceTest injectedServiceTest)
         {
             //
             Get["/", true] = async (parameters, ctx) =>
@@ -25,7 +25,7 @@ namespace NancyTransactionTest.Modules
 
     public class ServiceTest
     {
-        public static async Task InsertStuff(Database database)
+        public static async Task InsertStuff(MyDatabase database)
         {
             await database.ExecuteAsync("insert into test (name) values (@0)", DateTime.Now.ToString());
         }

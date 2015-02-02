@@ -9,14 +9,14 @@ namespace NancyTransactionTest.Infrastructure
 {
     public class InjectedServiceTest : IInjectedServiceTest
     {
-        private readonly Database _database;
+        private readonly MyDatabase _database;
 
-        public InjectedServiceTest(Database database)
+        public InjectedServiceTest(MyDatabase database)
         {
             _database = database;
         }
 
-        public async Task InsertStuff(Database database)
+        public async Task InsertStuff(MyDatabase database)
         {
             await database.ExecuteAsync("insert into test (name) values (@0)", "a: " + DateTime.Now.ToString());
             await _database.ExecuteAsync("insert into test (name) values (@0)", "b: " + DateTime.Now.ToString());

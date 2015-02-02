@@ -16,8 +16,8 @@ namespace NancyTransactionTest
         public static void Config(TinyIoCContainer container)
         {
             //container.Register<Database>().UsingConstructor(() => new Database("TransactionTest"));//.AsPerRequestSingleton();
-            //container.Register<MyDatabase>().AsPerRequestSingleton();
-            container.Register((c, p) => new Database("TransactionTest"));
+            container.Register<MyDatabase>().AsPerRequestSingleton();
+            //container.Register((c, p) => new Database("TransactionTest"));
 
             // Register all types in QIRTServices.Web.Infrastructure with at least one interface. 
             //

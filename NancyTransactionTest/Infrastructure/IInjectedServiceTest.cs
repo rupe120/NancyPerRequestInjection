@@ -5,6 +5,6 @@ namespace NancyTransactionTest.Infrastructure
 {
     public interface IInjectedServiceTest
     {
-        Task InsertStuff(Database database);
+        Task InsertStuff(MyDatabase database);
     }
 }
